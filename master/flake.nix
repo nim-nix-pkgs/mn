@@ -11,7 +11,6 @@
   inputs.src-mn-master.ref   = "refs/heads/master";
   inputs.src-mn-master.owner = "h3rald";
   inputs.src-mn-master.repo  = "mn";
-  inputs.src-mn-master.dir   = "";
   inputs.src-mn-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

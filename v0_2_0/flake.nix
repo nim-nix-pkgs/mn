@@ -11,7 +11,6 @@
   inputs.src-mn-v0_2_0.ref   = "refs/tags/v0.2.0";
   inputs.src-mn-v0_2_0.owner = "h3rald";
   inputs.src-mn-v0_2_0.repo  = "mn";
-  inputs.src-mn-v0_2_0.dir   = "";
   inputs.src-mn-v0_2_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
