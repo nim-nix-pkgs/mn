@@ -1,7 +1,0 @@
-"tasks/info.mn" read eval
-
-(
-  "Generating developer guide..." puts pop
-  "hastyscribe --field/version=$# Mn_DeveloperGuide.md" (cfg_version) interpolate run
-  "Done." puts pop
-) (guide__default) lambda
