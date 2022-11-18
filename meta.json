@@ -76,7 +76,7 @@
     },
     {
       "name": "mn",
-      "version": "0.3.0",
+      "version": "0.1.0",
       "author": "Fabio Cevasco",
       "desc": "A truly minimal concatenative programming language.",
       "license": "MIT",
@@ -88,7 +88,6 @@
       ],
       "installFiles": [
         "mn.yml",
-        "mn.nim",
         "mn.nim"
       ],
       "installExt": [],
